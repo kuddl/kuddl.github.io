@@ -1,23 +1,12 @@
-var gulp       = require('gulp'),
-    harp       = require('harp'),
-    bs         = require('browser-sync'),
-    reload     = bs.reload,
-    pgk        = require('./package.json'),
-    sourceDir  = pgk.kuddl.sourceDir;
+/*
+    gulpfile.js
+    ===========
+    Rather than manage one giant configuration file responsible
+    for creating multiple tasks, each task has been broken out into
+    its own file in gulp/tasks. Any file in that folder gets automatically
+    required by the loop in ./gulp/index.js (required below).
 
-gulp.task('serve', function (done) {
-  harp.server(sourceDir, {
-    port: 9002
-  });
-});
-
-gulp.task('watch', function () {
-    gulp.watch(sourceDir+"/**/*.{jade,styl,haml,sass,scss,less}", reload);
-});
-
-gulp.task('browser-sync', function() {
-  bs({
-    proxy: "localhost:9002"
-  });
-});
-gulp.task('default', ['serve', 'browser-sync', 'watch']);
+    To add a new task, simply add a new task file to gulp/tasks.
+*/
+var gulp = require('./gulp');
+module.exports = gulp;
