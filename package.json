@@ -1,0 +1,35 @@
+{
+  "name": "kuddl.github.com",
+  "version": "1.0.0",
+  "description": "Mein Blog braucht module",
+  "main": "gulp",
+  "scripts": {
+    "test": false
+  },
+  "kuddl":{
+     "sourceDir" : "_harp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kuddl/kuddl.github.io.git"
+  },
+  "keywords": [
+    "blog",
+    "website",
+    "static",
+    "site",
+    "harp",
+    "gulp"
+  ],
+  "author": "Tobias Sailer (tobias.sailer@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuddl/kuddl.github.io/issues"
+  },
+  "homepage": "https://github.com/kuddl/kuddl.github.io",
+  "devDependencies": {
+    "browser-sync": "^1.5.9",
+    "gulp": "^3.8.9",
+    "harp": "^0.14.0"
+  }
+}
