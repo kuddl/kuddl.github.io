@@ -6,7 +6,7 @@ var options = {
     branch: "master"
   };
 
-gulp.task('deploy', function () {
+gulp.task('deploy',['compile'], function () {
     return gulp.src('./public/**/*')
         .pipe(deploy(options));
 });

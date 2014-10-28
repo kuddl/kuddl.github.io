@@ -4,7 +4,7 @@ var gulp       = require('gulp'),
     sourceDir  = pgk.kuddl.sourceDir,
     outputDir  = pgk.kuddl.outputDir;
 
-gulp.task('serve', false, function (done) {
+gulp.task('serve', false, function () {
   harp.server(sourceDir, {
     port: 9002
   });
@@ -12,5 +12,6 @@ gulp.task('serve', false, function (done) {
 gulp.task('compile', 'Statische Seiten bauen', function (done) {
   harp.compile(sourceDir,'../' + outputDir,function() {
     console.log('gebaut');
+    done();
   });
 });
