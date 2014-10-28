@@ -1,0 +1,362 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"re	require"
+			],
+			[
+				"sv",
+				"svgo"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 688,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 81.0,
+		"selected_items":
+		[
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"gitst",
+				"Git: Status"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"INSTA",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"isntal",
+				"Package Control: Install Package"
+			],
+			[
+				"di",
+				"Package Control: Disable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"full",
+				"Preferences: Alignment File Settings – Default"
+			],
+			[
+				"setles",
+				"Set Syntax: LESS"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"insall",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/tobiassailer/github/kuddl.github.com",
+		"/Users/tobiassailer/github/kuddl.github.com/_harp",
+		"/Users/tobiassailer/github/kuddl.github.com/gulp",
+		"/Users/tobiassailer/github/kuddl.github.com/gulp/tasks"
+	],
+	"file_history":
+	[
+		"/Users/tobiassailer/github/kuddl.github.com/README.md",
+		"/Users/tobiassailer/github/kuddl.github.com/_harp/_layout.jade",
+		"/Users/tobiassailer/code_adventures/sb-bootstrap-techtalk/Gulpfile.js",
+		"/Users/tobiassailer/github/kuddl.github.com/gulp/tasks/help.js",
+		"/Users/tobiassailer/github/kuddl.github.com/gulp/tasks/harp.js",
+		"/Users/tobiassailer/github/kuddl.github.com/gulp/tasks/browser_sync.js",
+		"/Users/tobiassailer/github/kuddl.github.com/gulp/tasks/default.js",
+		"/Users/tobiassailer/github/kuddl.github.com/_harp/index.jade",
+		"/Users/tobiassailer/github/kuddl.github.com/_harp/main.styl",
+		"/Users/tobiassailer/github/kuddl.github.com/_harp/main.less",
+		"/Users/tobiassailer/code_adventures/sb-bootstrap-techtalk/htdocs/bootstrap/less/responsive-embed.less",
+		"/Users/tobiassailer/github/kuddl.github.com/main.css",
+		"/Users/tobiassailer/github/kuddl.github.com/harp.js",
+		"/Users/tobiassailer/github/kuddl.github.com/index.html",
+		"/Users/tobiassailer/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/Users/tobiassailer/github/kuddl.github.com/gulpfile.js",
+		"/Users/tobiassailer/github/kuddl.github.com/gulp/index.js",
+		"/Users/tobiassailer/code_adventures/sb-bootstrap-techtalk/gulp/index.js",
+		"/Users/tobiassailer/github/kuddl.github.com/gulp/util/scriptFilter.js",
+		"/Users/tobiassailer/github/kuddl.github.com/_harp/404.jade",
+		"/Users/tobiassailer/Library/Application Support/Sublime Text 3/Packages/EncodingHelper/EncodingHelper.sublime-settings",
+		"/Users/tobiassailer/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/tobiassailer/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/tobiassailer/github/kuddl.github.com/package.json",
+		"/Users/tobiassailer/github/kuddl.github.com/node_modules/gulp/node_modules/gulp-util/lib/isNull.js",
+		"/Users/tobiassailer/github/kuddl.github.com/node_modules/harp/node_modules/terraform/node_modules/node-sass/libsass/INSTALL",
+		"/Users/tobiassailer/github/kuddl.github.com/node_modules/harp/node_modules/terraform/node_modules/jade/lib/inline-tags.js",
+		"/Users/tobiassailer/github/kuddl.github.com/.git/config",
+		"/Users/tobiassailer/github/kuddl.github.com/README.markdown",
+		"/Users/tobiassailer/Library/Application Support/Sublime Text 3/Packages/Terminal/Base File.sublime-settings",
+		"/Users/tobiassailer/code_adventures/sb-bootstrap-techtalk/gulp/tasks/less.js",
+		"/Users/tobiassailer/code_adventures/sb-bootstrap-techtalk/htdocs/index.html",
+		"/Users/tobiassailer/code_adventures/sb-bootstrap-techtalk/gulp/tasks/browsersync.js",
+		"/Users/tobiassailer/code_adventures/sb-bootstrap-techtalk/htdocs/css/sb-less/article.less",
+		"/Users/tobiassailer/code_adventures/sb-bootstrap-techtalk/gulp/tasks/default.js",
+		"/Users/tobiassailer/code_adventures/sb-bootstrap-techtalk/htdocs/css/main.css",
+		"/Users/tobiassailer/code_adventures/sb-bootstrap-techtalk/htdocs/css/styles.css",
+		"/Users/tobiassailer/code_adventures/sb-bootstrap-techtalk/.gitignore",
+		"/Users/tobiassailer/code_adventures/gulp/svg/images/arr-black-reversed.svg",
+		"/Users/tobiassailer/code_adventures/gulp/svg/assets/svg/sprite.svg",
+		"/Users/tobiassailer/code_adventures/gulp/svg/assets/svg/symbols.svg",
+		"/Users/tobiassailer/code_adventures/gulp/svg/assets/svg/sprite.png",
+		"/Users/tobiassailer/code_adventures/gulp/svg/assets/sprite.html",
+		"/Users/tobiassailer/code_adventures/gulp/svg/assets/svg/symbols.png",
+		"/Users/tobiassailer/Desktop/generators/gen.js",
+		"/Users/tobiassailer/Desktop/generators/let.js",
+		"/Users/tobiassailer/Downloads/theme_blank_html5_boilerplate/themes/blank_html5_boilerplate/default.php",
+		"/Users/tobiassailer/Downloads/theme_blank_html5_boilerplate/themes/blank_html5_boilerplate/view.php"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 103.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"reload",
+			"pgk",
+			"false",
+			"var",
+			"console"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 688,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-chalk.dark (SL).tmTheme",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 122.0
+	},
+	"project": "kuddl.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"re",
+				"kuddl.github.com/README.md"
+			],
+			[
+				"read",
+				"kuddl.github.com/README.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
