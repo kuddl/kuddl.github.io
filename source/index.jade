@@ -1,2 +1,35 @@
-h1 Welcome to Harp.
-h3 This is yours to own. Enjoy!
+h1 Blog von Tobias Sailer
+
+h2 Hier entsteht ein Blog
+
+h3 Vorwort
+
+p.
+  Es ist zwar nicht das erste Mal, dass dokumentiert wird, wie ein Blog entsteht, aber für mich ist es ein Anfang.
+  Ich sehe diese Seiten nicht als "lesenswerte Artikel", sondern eher als ausführliche Commitmessages.
+
+h3 Ziele
+
+p.
+  Ich versuche hier im Blog meine Interessen rund um das Thema Webdevelopment zu sammeln und zu bündeln.
+  Alles was dazu gehört. Von Console Tools bis zu Editor Erweiterungen, von .htaccess bis SVG-Sprites.
+
+h3 Erwartungen
+
+ol
+  li Der Blog soll statisch sein. Als nicht in PHP oder node.js.
+  li Resposive Web Design
+  li Gulp als Taskrunner
+  li Jade für HTML und Logik
+  li Markdown (CommonMark) zu schreiben
+  li Stylus für CSS
+  li Browserify für JS (evtl. mit npm, component)
+  li GIT als Versionierungssystem
+  li GIT als Workflow (Branches für "Artikel")
+
+h2 Postlistings
+
+ul
+for post, slug in public.posts._data
+  li
+    a(href="/posts/#{ slug }")= post.title

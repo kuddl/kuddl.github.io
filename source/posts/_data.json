@@ -1,0 +1,23 @@
+{
+  "2014-10-28_Sprint1": {
+    "title": "Hier entsteht ein Blog",
+    "author":"Tobias Sailer",
+    "email" : "tobias.sailer@gmail.com",
+    "date":"28.2.2014",
+    "type":"post"
+  },
+  "2014-10-28_Sprint2": {
+    "title": "Trennung von Blogartikel und System",
+    "author":"Tobias Sailer",
+    "email" : "tobias.sailer@gmail.com",
+    "date":"28.2.2014",
+    "type":"post"
+  },
+  "2014-10-28_Sprint3": {
+    "title": "Hier entsteht ein Blog",
+    "author":"Tobias Sailer",
+    "email" : "tobias.sailer@gmail.com",
+    "date":"28.2.2014",
+    "type":"post"
+  }
+}
