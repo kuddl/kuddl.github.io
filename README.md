@@ -1,4 +1,4 @@
-# Hier entstejt ein Blog
+# Hier entsteht ein Blog
 
 ## Vorwort
 Es sit zwar nicht das erste Mal, dass dokumentiert widre, wie ein Blog entsteht, aber für mich ist es ein Anfang.
@@ -53,7 +53,8 @@ Vielleicht geht's damit, aber ich befürchte, daß das hauptsächlich nur für "
 Es hat funktioniert.
 Ich habe nun einen Branch "develop", auf welchem das ganze System läuft.
 Jetzt gibt es einen Gulp Task "compile" und den Gulp Task "deploy".
-Der Task 'compile'
+Der Task "compile" baut alle statischen Seiten in das Verzeichnis "public".
+Der Task "deploy" schiebt das Verzeichnis "public" via https://github.com/rowoot/gulp-gh-pages in den Masterbrach, welcher dann auf Github gepostet wird
 
 # Ablage
 
