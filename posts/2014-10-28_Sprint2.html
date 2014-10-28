@@ -1,2 +1,20 @@
-<!DOCTYPE html><html><head><link rel="stylesheet" href="/main.css"></head><body><h1>Das ist ein Blogpost</h1>
+<!DOCTYPE html><html><head><link rel="stylesheet" href="/main.css"></head><body><h1>Sprint 2 -- Trennung von Eingabe und statischen Seiten</h1>
+<p>Bisher liegen alle Dateien in einem Verzeichnis. Das wird dann mit der Zeit bestimmt unübersichtlich.
+Ich will versuchen, dass es eine Trennung gibt, zwischen dem &quot;System (also HARP)&quot; und meinen Blogeinträgen.</p>
+<p>Ich hab da die Idee, das mit Github-Pages zu machen.
+Da gibts ein Plugin für Gulp:
+<a href="https://github.com/rowoot/gulp-gh-pages">https://github.com/rowoot/gulp-gh-pages</a>
+Vielleicht geht&#39;s damit, aber ich befürchte, daß das hauptsächlich nur für &quot;Github Projektseiten&quot; gemacht ist und nicht für &quot;Github Personenseiten&quot;.</p>
+<h2>Linkliste mit Artikel zum Thema</h2>
+<ul>
+<li><a href="http://charliegleason.com/articles/deploying-to-github-pages-with-gulp">http://charliegleason.com/articles/deploying-to-github-pages-with-gulp</a></li>
+<li><a href="http://www.michael-whelan.net/deploying-sandra-snow-to-github-pages-with-gulp/">http://www.michael-whelan.net/deploying-sandra-snow-to-github-pages-with-gulp/</a></li>
+<li><a href="http://cameronspear.com/blog/handling-sync-tasks-with-gulp-js/">http://cameronspear.com/blog/handling-sync-tasks-with-gulp-js/</a></li>
+</ul>
+<h2>Erfolg mit Sprint 2</h2>
+<p>Es hat funktioniert.
+Ich habe nun einen Branch &quot;develop&quot;, auf welchem das ganze System läuft.
+Jetzt gibt es einen Gulp Task &quot;compile&quot; und den Gulp Task &quot;deploy&quot;.
+Der Task &quot;compile&quot; baut alle statischen Seiten in das Verzeichnis &quot;public&quot;.
+Der Task &quot;deploy&quot; schiebt das Verzeichnis &quot;public&quot; via <a href="https://github.com/rowoot/gulp-gh-pages">https://github.com/rowoot/gulp-gh-pages</a> in den Masterbrach, welcher dann auf Github gepostet wird</p>
 </body></html>
