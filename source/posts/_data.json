@@ -1,6 +1,13 @@
 {
-  "2014-10-28_Sprint1": {
-    "title": "Hier entsteht ein Blog",
+  "2014-10-29_Sprint4": {
+    "title": "CSS, JS und Image Ordner und Gulp",
+    "author":"Tobias Sailer",
+    "email" : "tobias.sailer@gmail.com",
+    "date":"28.2.2014",
+    "type":"post"
+  },
+  "2014-10-28_Sprint3": {
+    "title": "Struktur für den Blog",
     "author":"Tobias Sailer",
     "email" : "tobias.sailer@gmail.com",
     "date":"28.2.2014",
@@ -13,7 +20,7 @@
     "date":"28.2.2014",
     "type":"post"
   },
-  "2014-10-28_Sprint3": {
+  "2014-10-28_Sprint1": {
     "title": "Hier entsteht ein Blog",
     "author":"Tobias Sailer",
     "email" : "tobias.sailer@gmail.com",
