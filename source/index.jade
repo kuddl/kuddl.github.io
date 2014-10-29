@@ -34,6 +34,6 @@ ol
 h2 Postlistings
 
 ul
-for post, slug in public.posts._data
-  li
-    a(href="/posts/#{ slug }")= post.title
+  for post, slug in public.posts._data
+    li
+      a(href="/posts/#{ slug }")= post.title
