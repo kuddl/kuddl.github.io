@@ -10,7 +10,8 @@ gulp.task('watch', false, function () {
       reload("main.css");
     });
     // HTML Varianten überwachen und neu laden
-    gulp.watch(sourceDir+"/**/*.{md,jade,haml}", function() {
+    // Vorerste auch mal JS
+    gulp.watch(sourceDir+"/**/*.{js,md,jade,haml}", function() {
       reload();
     });
 });
