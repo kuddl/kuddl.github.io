@@ -1,30 +1,37 @@
 {
-  "2014-10-29_Sprint4": {
-    "title": "CSS, JS und Image Ordner und Gulp",
-    "author":"Tobias Sailer",
-    "email" : "tobias.sailer@gmail.com",
-    "date":"28.2.2014",
-    "type":"post"
-  },
-  "2014-10-28_Sprint3": {
-    "title": "Struktur für den Blog",
-    "author":"Tobias Sailer",
-    "email" : "tobias.sailer@gmail.com",
-    "date":"28.2.2014",
-    "type":"post"
-  },
-  "2014-10-28_Sprint2": {
-    "title": "Trennung von Blogartikel und System",
-    "author":"Tobias Sailer",
-    "email" : "tobias.sailer@gmail.com",
-    "date":"28.2.2014",
-    "type":"post"
-  },
-  "2014-10-28_Sprint1": {
+  "00001_2014-10-28": {
     "title": "Hier entsteht ein Blog",
-    "author":"Tobias Sailer",
-    "email" : "tobias.sailer@gmail.com",
-    "date":"28.2.2014",
-    "type":"post"
+    "author": "Tobias Sailer",
+    "email": "tobias.sailer@gmail.com",
+    "date": "28.10.2014",
+    "type": "post"
+  },
+  "00002_2014-10-28": {
+    "title": "Trennung von Blogartikel und System",
+    "author": "Tobias Sailer",
+    "email": "tobias.sailer@gmail.com",
+    "date": "28.10.2014",
+    "type": "post"
+  },
+  "00003_2014-10-28": {
+    "title": "Struktur für den Blog",
+    "author": "Tobias Sailer",
+    "email": "tobias.sailer@gmail.com",
+    "date": "28.10.2014",
+    "type": "post"
+  },
+  "00004_2014-10-29": {
+    "title": "CSS, JS und Image Ordner und Gulp",
+    "author": "Tobias Sailer",
+    "email": "tobias.sailer@gmail.com",
+    "date": "28.10.2014",
+    "type": "post"
+  },
+  "00005_2014-10-30": {
+    "title": "Gulp Task für neuen Blogpost und besserer Watch",
+    "author": "Tobias Sailer",
+    "email": "tobias.sailer@gmail.com",
+    "date": "30.10.2014",
+    "type": "post"
   }
 }

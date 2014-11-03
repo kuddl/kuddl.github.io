@@ -1,5 +1,5 @@
 var fs           = require('fs'),
-    SkriptFilter = require('./util/scriptFilter'),
+    SkriptFilter = require('./util/helpers').scriptFilter,
     tasks        = fs.readdirSync('./gulp/tasks/').filter(SkriptFilter);
 
 // help als erstes !
