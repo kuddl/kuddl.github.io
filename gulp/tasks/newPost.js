@@ -8,11 +8,11 @@ var gulp         = require('gulp'),
     dataFolder   = cwd +'/source/posts/',
     dataTemplate = '_post_template.md',
     dataFile     = '_data.json',
-    dataInfo     = require(dataFolder+dataFile),
+    userInput    = 'userInput',
     today        = new Date().toISOString().slice(0,10),
+    dataInfo     = require(dataFolder+dataFile),
     newPostId    = padNum('00000',Object.keys(dataInfo).length+1),
-    postName     = newPostId +'_'+(today),
-    userInput    = 'userInput';
+    postName     = newPostId +'_'+(today);
 
 
 var fragen = [
@@ -25,7 +25,7 @@ var fragen = [
                   type: "input",
                   name: "tags",
                   message: "Taglist",
-                  default: function () { return "Post"; }
+                  default: function () { return "js,css"; }
                 }
               ];
 
@@ -51,8 +51,7 @@ gulp.task('writepostfile',false, ['userinput'], function () {
                                 "tags": userInput.tags
                               };
               json[postName] = newPostJson;
-              console.log('JSON erstellt: ' + JSON.stringify(newPostJson,null,'..'));
-              return json; // must return JSON object.
+              return json; // must return JSON object
             }))
             .pipe(gulp.dest(dataFolder));
 });
@@ -63,12 +62,13 @@ gulp.task('userinput',function () {
   return gulp.src(dataFolder+dataFile,{read:false})
               .pipe(prompt.prompt(fragen,
                     function(antworten) {
+                      // Globale Variable füllen
                       userInput = antworten;
                     }
                 ));
 });
 
 // mit diesem Task erstellen wir einen neuen Post
-gulp.task('newpost','erstellt einen neuen POST' ,['userinput','readwritejson','writepostfile'], function () {
-    // console.log('newpost ' + userInput);
+gulp.task('newpost','erstellt einen neuen Blogartikel' ,['userinput','readwritejson','writepostfile'], function () {
+
 });
