@@ -1,0 +1,35 @@
+<!DOCTYPE html><html><head><link rel="stylesheet" href="/css/main.css"></head><body><h1>Stylus und CSS Setup</h1>
+<p>Jetzt kümmern wir uns mal um CSS und den Preprozessor Stylus.
+Ausserdem würde ich gerne in meinen CSS Task (Gulp) den &quot;Autoprefixr&quot; einbauen, damit ich mich nicht um die Vendorprefixe kümmern muss.
+Gut wäre auch noch, wenn es Sourcemaps geben könnte, aber da macht glaub ich Stylus noch nicht mit.</p>
+<p>Wenn die Zeit noch reicht, dann wäre es schön, wenn noch ein automatischer Base64-Uri Generator eingebaut werden kann. Entweder als Gulp Task, oder als Stylus Plugin.</p>
+<h2>Ausgangslage</h2>
+<ul>
+<li>_mixin und _variable Dateien für Stylus</li>
+<li>Gehen die Sourcemaps ?</li>
+<li>Autoprefixr ins Gulp einbauen</li>
+<li>=&gt; Kontrolle des CSS Output</li>
+</ul>
+<h2>Arbeiten und Erfolge</h2>
+<p>Ohje. Das war mal ein Reinfall.</p>
+<p>Denn die ganze Verarbeitung von Stylus und CSS macht ja harp.js. Daher können wir gar nicht eingreifen.
+Und Konfigparameter kennt das Ding auch nicht. Schade!</p>
+<p>Aber nun haben wir zumindest mal <a href="http://tj.github.io/nib/">nib</a> installiert.
+Immerhin.</p>
+<p>Base64 können wir auch nicht so einfach einbauen, da wir Stylus nicht entsprechend konfigurieren können.</p>
+<p>Der Output ist OK.</p>
+<p>Der Autoprefixer ist schon installiert via <a href="http://harpjs.com/blog/v0-14-0-implicit-autoprefixing">Harpjs</a></p>
+<h2>Fazit</h2>
+<p>Es ist zwar nicht ganz optimal, wie es nun läuft, aber zumindest kann ich <a href="http://learnboost.github.io/stylus/">Stylus</a> nutzen. Und <a href="http://tj.github.io/nib/">Nib</a>. </p>
+<p>Somit kann ich alle Stylesheets in kleine Module gliedern und hab danach eine minifizierte CSS Datei. </p>
+<p>Mehr brauch ich erst mal nicht.</p>
+<p>Let&#39;s call this a day!</p>
+<h2>Linkliste mit Artikel zum Thema</h2>
+<ul>
+<li><a href="http://learnboost.github.io/stylus/docs/sourcemaps.html">http://learnboost.github.io/stylus/docs/sourcemaps.html</a></li>
+<li><a href="http://harpjs.com/docs/development/stylus">http://harpjs.com/docs/development/stylus</a></li>
+<li><a href="https://github.com/sintaxi/harp/issues/74">https://github.com/sintaxi/harp/issues/74</a></li>
+<li><a href="http://tj.github.io/nib/">http://tj.github.io/nib/</a></li>
+<li><a href="http://harpjs.com/blog/v0-14-0-implicit-autoprefixing">http://harpjs.com/blog/v0-14-0-implicit-autoprefixing</a></li>
+</ul>
+<script type="text/javascript" src="/js/main.js"></script></body></html>
