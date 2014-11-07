@@ -58,7 +58,7 @@ gulp.task('writepostfile',false, ['userinput'], function () {
 
 
 // Zuerst mal nach dem Titel fragen ..
-gulp.task('userinput',function () {
+gulp.task('userinput',false,function () {
   return gulp.src(dataFolder+dataFile,{read:false})
               .pipe(prompt.prompt(fragen,
                     function(antworten) {
@@ -70,5 +70,7 @@ gulp.task('userinput',function () {
 
 // mit diesem Task erstellen wir einen neuen Post
 gulp.task('newpost','erstellt einen neuen Blogartikel' ,['userinput','readwritejson','writepostfile'], function () {
-
+  // dieser Task wird als öffentlicher Task gebraucht .... wichtig sind die Dependencies
+  // Unserinput MUSS zuerst laufen .. daher bei den beiden anderen Tasks auch als
+  // dependency drin !
 });
