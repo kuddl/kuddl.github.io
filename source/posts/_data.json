@@ -33,5 +33,13 @@
     "email": "tobias.sailer@gmail.com",
     "date": "30.10.2014",
     "type": "post"
+  },
+  "00006_2014-11-06": {
+    "title": "Stylus und CSS Setup",
+    "author": "Tobias Sailer",
+    "email": "tobias.sailer@gmail.com",
+    "date": "2014-11-06",
+    "type": "post",
+    "tags": "css, stylus"
   }
 }
